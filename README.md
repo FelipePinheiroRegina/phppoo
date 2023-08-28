@@ -3,3 +3,4 @@
  
 ### Aulas Praticas
 - [Criando Classes e Objetos](https://github.com/FelipePinheiroRegina/phppoo/blob/main/aulas/aula001.php)
+- [Visibilidade de Atributos e Métodos](https://github.com/FelipePinheiroRegina/phppoo/blob/main/aulas/aula002.php)
