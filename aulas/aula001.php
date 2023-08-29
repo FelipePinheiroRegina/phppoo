@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aula 001</title>
+    <title>Aula 001 - POO</title>
 </head>
 <body>
         <?php
