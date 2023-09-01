@@ -6,3 +6,4 @@
 - [Visibilidade de Atributos e Métodos](https://github.com/FelipePinheiroRegina/phppoo/blob/main/aulas/aula002.php)
 - [Métodos Getter, Setter, Construct](https://github.com/FelipePinheiroRegina/phppoo/blob/main/aulas/aula003.php)
 - [Conta Bancária](https://github.com/FelipePinheiroRegina/phppoo/blob/main/aulas/aula004.php)
+- [Encapsulamento ( Controle Remoto )](https://github.com/FelipePinheiroRegina/phppoo/blob/main/aulas/aula005/controleRemoto.php)
