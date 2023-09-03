@@ -7,4 +7,6 @@
 - [Métodos Getter, Setter, Construct](https://github.com/FelipePinheiroRegina/phppoo/blob/main/aulas/aula003.php)
 - [Conta Bancária](https://github.com/FelipePinheiroRegina/phppoo/blob/main/aulas/aula004.php)
 - [Encapsulamento ( Controle Remoto )](https://github.com/FelipePinheiroRegina/phppoo/blob/main/aulas/aula005/controleRemoto.php)
-- [Ultimate Emoji Combat](https://github.com/FelipePinheiroRegina/phppoo/tree/main/aulas/aula006)
+- [Ultimate Emoji Combat - Interface](https://github.com/FelipePinheiroRegina/phppoo/blob/main/aulas/aula006/aula006.php)
+    - [Ultimate Emoji Combat - Classe Lutador](https://github.com/FelipePinheiroRegina/phppoo/blob/main/aulas/aula006/lutador.php)
+    - [Ultimate Emoji Combat - Classe Luta](https://github.com/FelipePinheiroRegina/phppoo/blob/main/aulas/aula006/luta.php)
