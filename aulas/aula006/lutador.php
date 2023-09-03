@@ -40,6 +40,7 @@ class Lutador {
         echo "<p>Com exatamente <strong>" . $this->getVitorias() . " Vitórias, ";
         echo $this->getDerrotas() . " Derrotas, ";
         echo "Eeeee " . $this->getEmpates() . " Empates.</strong></p>";
+        echo "<p>--------------------------------------------------</p>";  
     }
 
     public function status() {
@@ -47,7 +48,8 @@ class Lutador {
         echo "<p>Peso: " . $this->getCategoria() . "</p>";
         echo "<p>Vitórias: " . $this->getVitorias() . "</p>";
         echo "<p>Derrotas: " . $this->getDerrotas() . "</p>";
-        echo "<p>Empates: " . $this->getEmpates() . "</p>";   
+        echo "<p>Empates: " . $this->getEmpates() . "</p>"; 
+        echo "<p>----------------------------------------</p>";  
     }
 
     public function ganharLuta() {

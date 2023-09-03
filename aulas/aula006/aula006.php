@@ -35,6 +35,7 @@
         <pre>
         <?php 
             require_once 'lutador.php';
+            require_once 'luta.php';
             // Declarando um Array para receber varios lutadores
             $Lutador = array();
             
@@ -50,7 +51,14 @@
 
             $Lutador[5] = new Lutador("Nerdaart", "EUA", 30, 1.81, 105.7, 12, 2, 4);
             
-            $Lutador[5]->apresentar();
+            $UEC_1 = new Luta;
+
+            $UEC_1->marcarLuta($Lutador[1], $Lutador[1]);
+            
+
+            $UEC_1->lutar();
+
+            
   
         ?>
         </pre>
