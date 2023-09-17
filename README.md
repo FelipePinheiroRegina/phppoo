@@ -10,3 +10,7 @@
 - [Ultimate Emoji Combat - Interface](https://github.com/FelipePinheiroRegina/phppoo/blob/main/aulas/aula006/aula006.php)
     - [Ultimate Emoji Combat - Classe Lutador](https://github.com/FelipePinheiroRegina/phppoo/blob/main/aulas/aula006/lutador.php)
     - [Ultimate Emoji Combat - Classe Luta](https://github.com/FelipePinheiroRegina/phppoo/blob/main/aulas/aula006/luta.php)
+- [Books Store - Interface](https://github.com/FelipePinheiroRegina/phppoo/blob/main/aulas/aula007/index.php)
+    - [Objeto Livro](https://github.com/FelipePinheiroRegina/phppoo/blob/main/aulas/aula007/livro.php)
+    - [Objeto Pessoa](https://github.com/FelipePinheiroRegina/phppoo/blob/main/aulas/aula007/pessoa.php)
+    - [Funções abstratas](https://github.com/FelipePinheiroRegina/phppoo/blob/main/aulas/aula007/publicacao.php)
