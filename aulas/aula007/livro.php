@@ -13,7 +13,9 @@
     // + detalhes()
 
     require_once 'pessoa.php';
-    class Livro {
+    require_once 'publicacao.php';
+    
+    class Livro implements publicacao{
         //__ATRIBUTOS
             private $titulo;
             private $autor;
@@ -24,17 +26,23 @@
         
         //__FUNÇÕES
             public function detalhes() {
-
+                echo "<p>--------------------------------------------------</p>";
+                echo "<p>Nome do livro: " . $this->getTitulo() . "</p>";
+                echo "<p>Nome do autor: " . $this->getAutor() . "</p>";
+                echo "<p>Leitor: " . $this->getLeitor()->getNome() . "</p>";
+                echo "<p>Quantidade de Páginas: " . $this->getTotPaginas() ."</p>";
+                echo "<p>Página Atual: " . $this->getPagAtual() . "</p>";
+                
             }
 
         //__CONSTRUTOR
-            function __construct($p_titulo, $p_autor, $p_totpaginas, $p_pagatual, $p_aberto, $p_leitor)
+            function __construct($p_titulo, $p_autor, $p_totpaginas, $p_leitor)
             {
                 $this->setTitulo($p_titulo);
                 $this->setAutor($p_autor);
                 $this->setTotPaginas($p_totpaginas);
-                $this->setPagAtual($p_pagatual);
-                $this->setAberto($p_aberto);
+                $this->setPagAtual(0);
+                $this->setAberto(false);
                 $this->setLeitor($p_leitor);
             }
         
@@ -86,6 +94,31 @@
 
             public function getLeitor() {
                 return $this->leitor;
+            }
+
+        //__INTERAÇÕES COM A INTERFACE PUBLICACAO
+            public function abrir(){
+                $this->aberto = true;
+            }
+            
+            public function fechar(){
+                $this->aberto = false;
+            }
+
+            public function folhear($p){
+                if ($this->pagAtual > $p){
+                    $this->pagAtual = 0;
+                }else{
+                    $this->pagAtual = $p;
+                }
+            }
+
+            public function avançarPag(){
+                $this->pagAtual ++;
+            }
+
+            public function voltarPag(){
+                $this->pagAtual --;
             }
     }
 ?>
