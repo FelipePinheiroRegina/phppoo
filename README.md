@@ -1,7 +1,7 @@
 # Programação Orientada a Objeto 🔵🟢🔴
  Curso dos paradigmas da orientação a objeto utilizando PHP, ministrado pelo professor Gustavo Guanabara do CursoemVideo.
  
-### Aulas Praticas
+### Encapsulamento
 - [Criando Classes e Objetos](https://github.com/FelipePinheiroRegina/phppoo/blob/main/aulas/aula001.php)
 - [Visibilidade de Atributos e Métodos](https://github.com/FelipePinheiroRegina/phppoo/blob/main/aulas/aula002.php)
 - [Métodos Getter, Setter, Construct](https://github.com/FelipePinheiroRegina/phppoo/blob/main/aulas/aula003.php)
@@ -14,3 +14,9 @@
     - [Objeto Livro](https://github.com/FelipePinheiroRegina/phppoo/blob/main/aulas/aula007/livro.php)
     - [Objeto Pessoa](https://github.com/FelipePinheiroRegina/phppoo/blob/main/aulas/aula007/pessoa.php)
     - [Funções abstratas](https://github.com/FelipePinheiroRegina/phppoo/blob/main/aulas/aula007/publicacao.php)
+### Herança
+- [PINHEIRO'S UNIVERSITY](https://github.com/FelipePinheiroRegina/phppoo/blob/main/aulas/aula008/index.php)
+    - [Objeto Pessoa](https://github.com/FelipePinheiroRegina/phppoo/blob/main/aulas/aula008/pessoa.php)
+    - [Objeto Aluno](https://github.com/FelipePinheiroRegina/phppoo/blob/main/aulas/aula008/aluno.php)
+    - [Objeto Professor](https://github.com/FelipePinheiroRegina/phppoo/blob/main/aulas/aula008/professor.php)
+    - [Objeto Funcionário](https://github.com/FelipePinheiroRegina/phppoo/blob/main/aulas/aula008/funcionario.php)
