@@ -10,17 +10,17 @@ class Mamifero extends Animal{
     // MÉTODOS DE SOBREPOSIÇÃO.
     public function Locomover()
     {
-        echo "Correndo";
+        echo "<P>Correndo</P>";
     }
 
     public function Alimentar()
     {
-        echo "Mamando";
+        echo "<P>Mamando</P>";
     }
 
-    public function emetirSom()
+    public function emitirSom()
     {
-        echo "Som de Mamifero";
+        echo "<P>Som de Mamifero</P>";
     }
 
     // GET e SET

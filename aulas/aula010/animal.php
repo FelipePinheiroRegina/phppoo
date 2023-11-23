@@ -8,7 +8,7 @@ abstract class Animal {
     // MÉTODOS ABSTRATOS
         abstract function Locomover();
         abstract function Alimentar();
-        abstract function emetirSom();
+        abstract function emitirSom();
 
     //GETTERS E SETTERS
         // SOBRE PESO
