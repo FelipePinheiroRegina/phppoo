@@ -27,7 +27,7 @@
     - [Classe Bolsista > Filha de Aluno > Descendente de Pessoa (HERANÇA PARA DIFERENÇA COM POLIMORFISMO)](https://github.com/FelipePinheiroRegina/phppoo/blob/main/aulas/aula009/bolsista.php)
     - [Classe Tecnico > Filha de Aluno > Descendente de Pessoa (HERANÇA PARA DIFERENÇA)](https://github.com/FelipePinheiroRegina/phppoo/blob/main/aulas/aula009/tecnico.php)
     - [Classe Professor > Filha de Pessoa (HERANÇA PARA DIFERENÇA)](https://github.com/FelipePinheiroRegina/phppoo/blob/main/aulas/aula009/professor.php)
- ### Polimorfismo
+ ### Polimorfismo de sobreposição
  - [Index with all class](https://github.com/FelipePinheiroRegina/phppoo/blob/main/aulas/aula010/index.php)
     - [Abstract class Animal](https://github.com/FelipePinheiroRegina/phppoo/blob/main/aulas/aula010/animal.php)
     - [Class Mamifero](https://github.com/FelipePinheiroRegina/phppoo/blob/main/aulas/aula010/mamifero.php)
@@ -39,3 +39,11 @@
         1. [Class Goldfish](https://github.com/FelipePinheiroRegina/phppoo/blob/main/aulas/aula010/goldfish.php)
     - [Class Ave](https://github.com/FelipePinheiroRegina/phppoo/blob/main/aulas/aula010/ave.php)
         1. [Class Arara](https://github.com/FelipePinheiroRegina/phppoo/blob/main/aulas/aula010/arara.php)
+ ### Polimorfismo de sobrecarga
+ - [Index](https://github.com/FelipePinheiroRegina/phppoo/blob/main/aulas/aula011/index.php)
+ - [Class Animal](https://github.com/FelipePinheiroRegina/phppoo/blob/main/aulas/aula011/animal.php)
+     - [Class Mamifero](https://github.com/FelipePinheiroRegina/phppoo/blob/main/aulas/aula011/mamifero.php)
+         - [Class Lobo](https://github.com/FelipePinheiroRegina/phppoo/blob/main/aulas/aula011/lobo.php)
+             - [Class Cachorro. Onde ocorre a sobre carga!](https://github.com/FelipePinheiroRegina/phppoo/blob/main/aulas/aula011/cachorro.php)
+
+                _OBS: A linguagem PHP não suporta esse conceito, mas por questões de aprendizagem simulamos algo parecido._
