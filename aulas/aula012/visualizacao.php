@@ -14,7 +14,6 @@ class Visualizacao {
             $this->filme = $film;
             $this->filme->setViews($this->filme->getViews() + 1);
             $this->espectador->setTotAssistido($this->espectador->getTotAssistido() + 1);
-            $this->filme->setReproduzindo(true);
         }
     
     // MÉTODOS
