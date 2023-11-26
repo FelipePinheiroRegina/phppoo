@@ -46,7 +46,7 @@
          - [Class Lobo](https://github.com/FelipePinheiroRegina/phppoo/blob/main/aulas/aula011/lobo.php)
              - [Class Cachorro. Onde ocorre a sobre carga!](https://github.com/FelipePinheiroRegina/phppoo/blob/main/aulas/aula011/cachorro.php)
 
-                _OBS: A linguagem PHP não suporta esse conceito, mas por questões de aprendizagem simulamos algo parecido._
+ _OBS: A linguagem PHP não suporta esse conceito, mas por questões de aprendizagem simulamos algo parecido._
  ### Projeto final
  - [Index - Onde atribui valores nas classes](https://github.com/FelipePinheiroRegina/phppoo/blob/main/aulas/aula012/index.php)
      - [Interface](https://github.com/FelipePinheiroRegina/phppoo/blob/main/aulas/aula012/interface.php)
@@ -56,5 +56,6 @@
  - [Class Visualização - onde ocorre a ligação das duas classes](https://github.com/FelipePinheiroRegina/phppoo/blob/main/aulas/aula012/visualizacao.php)
  
  _A proposta desse projeto foi para utilizar os três pilares de **Programação Orientada a Objeto**, que aprendi durante este curso **(Encapsulamento, Herança, Polimorfismo)**_
+ 
  ---
  # GoodBye, see you later!✋ 🔵🟢🔴
